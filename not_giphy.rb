@@ -1,9 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 
-set :public_folder, File.dirname(__FILE__) + '/public'
 set :root, File.dirname(__FILE__)
-set :static, enable
 set :dump_errors, true
 set :raise_errors, false
 set :show_exceptions, false
